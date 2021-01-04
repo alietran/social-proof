@@ -1,0 +1,122 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background: url('<svg width="1085" height="673" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.237%" x2="9.399%" y2="32.159%" id="a"><stop stop-color="#8A4389" stop-opacity="0" offset="0%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/></linearGradient></defs><path d="M355 800c74.356-153.934 215.022-251.268 422-292 310.466-61.099 192.94-122.724 345.47-245.025C1224.157 181.442 1330 136.116 1440 127v673H355z" transform="translate(-355 -127)" fill="url(#a)" fill-rule="evenodd" opacity=".05"/></svg>');
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+  }
+
+
+
+  h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: hsl(300, 52%, 34%);
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: hsl(300, 44%, 41%);
+    font-weight: 400;
+
+  }
+
+  .customer-rating {
+    display: flex;
+    flex-wrap: wrap;
+    background: #F7F2F8;
+    padding: .7rem 1.5rem;
+    margin-bottom: .8rem;
+    font-size: .7rem;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 3rem;
+    width: 20rem;
+  }
+
+  .rating-img {
+    margin-right: 1rem;
+  }
+
+  .ratingstar2 {
+    margin-left: 2rem;
+  }
+
+  .ratingstar3 {
+    margin-left: 4rem;
+  }
+  .bottom-rating{
+    margin-top: 50px;
+  }
+  .rating-card{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card{
+    width: 300px;
+    height: 180px;
+    background-color: #511F50;
+    margin-right: 1rem;
+    padding: 20px 15px;
+    border-radius: 8px;
+
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+   
+  }
+  .profile img{
+    border-radius: 100px;
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  .profile h3{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 3px;
+  }
+  .profile h5{
+    font-size: .8rem;
+    color: hsl(333, 80%, 67%)
+  }
+  .review p{
+    color: #F7F7F8;
+    font-size: .9rem;
+    margin-top: 15px;
+    line-height: 1.4rem;
+  }
+  .rating-card-2{
+    margin-top: 1rem;
+  }
+  .rating-card-3{
+    margin-top: 2rem;
+  }
